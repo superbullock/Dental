@@ -32,8 +32,9 @@ html, body {
 .body {
     clear: both;
     background: #005AA3;
-    height: 100%;
+    height: calc(100% - 30px);
     padding: 30px;
+    text-decoration: none;
 }
 
 .container {
@@ -64,6 +65,8 @@ html, body {
 }
     
 .slides {
+    width: 100%;
+    height: 50%;
     background: url("http://www.slcdentalcenter.com/wp-content/uploads/Salt-Lake-City-Dentist.png") no-repeat;
     background-size: 100% 100%;
 }
